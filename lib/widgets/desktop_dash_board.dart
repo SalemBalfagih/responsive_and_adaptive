@@ -5,6 +5,15 @@ class DesktopDashBoard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    // ignore: prefer_const_constructors
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      mainAxisSize: MainAxisSize.max,
+      children: [
+        Builder(builder: (context) {
+          return Row();
+        }),
+      ],
+    );
   }
 }
